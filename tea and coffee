@@ -1,1 +1,150 @@
-<h1> this is a nepali tradition tea and coffee which reflect nepal history related to tea
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nepali Tea & Coffee Culture</title>
+    <style>
+        body {
+            margin: 0;
+            font-family: Arial, sans-serif;
+            background: #f4f1ea;
+            color: #333;
+        }
+
+        header {
+            background: #5c3d2e;
+            color: white;
+            padding: 20px;
+            text-align: center;
+        }
+
+        nav {
+            background: #8b5e3c;
+            padding: 10px;
+            text-align: center;
+        }
+
+        nav a {
+            color: white;
+            margin: 0 15px;
+            text-decoration: none;
+            font-weight: bold;
+        }
+
+        section {
+            padding: 40px;
+        }
+
+        .hero {
+            background: url('https://images.unsplash.com/photo-1509042239860-f550ce710b93') no-repeat center/cover;
+            color: white;
+            text-align: center;
+            padding: 100px 20px;
+        }
+
+        .card {
+            background: white;
+            padding: 20px;
+            margin: 20px 0;
+            border-radius: 10px;
+            box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+        }
+
+        footer {
+            background: #5c3d2e;
+            color: white;
+            text-align: center;
+            padding: 15px;
+        }
+
+        .btn {
+            display: inline-block;
+            background: #c97b3a;
+            color: white;
+            padding: 10px 20px;
+            border-radius: 5px;
+            text-decoration: none;
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    <h1>☕ Nepali Tea & Coffee</h1>
+    <p>Explore the taste of Nepal</p>
+</header>
+
+<nav>
+    <a href="#about">About</a>
+    <a href="#tea">Tea</a>
+    <a href="#coffee">Coffee</a>
+    <a href="#sugar">Sugar</a>
+    <a href="#contact">Contact</a>
+</nav>
+
+<section class="hero">
+    <h2>Fresh from the Hills of Nepal</h2>
+    <p>Discover authentic tea & coffee culture</p>
+    <a href="#tea" class="btn">Explore Now</a>
+</section>
+
+<section id="about">
+    <h2>About</h2>
+    <div class="card">
+        <p>
+            Nepal is famous for its rich tea gardens in Ilam and growing coffee farms in the hills.
+            From traditional milk tea (chiya) to organic coffee, Nepal offers unique flavors loved by locals and tourists.
+        </p>
+    </div>
+</section>
+
+<section id="tea">
+    <h2>🍵 Tea (Chiya)</h2>
+    <div class="card">
+        <p>
+            Nepali tea is known for its strong aroma and flavor. Popular types include:
+        </p>
+        <ul>
+            <li>Milk Tea (Dudh Chiya)</li>
+            <li>Black Tea</li>
+            <li>Green Tea</li>
+            <li>Ilam Organic Tea</li>
+        </ul>
+    </div>
+</section>
+
+<section id="coffee">
+    <h2>☕ Coffee</h2>
+    <div class="card">
+        <p>
+            Coffee farming is growing in Nepal, especially in hilly regions.
+            Nepali coffee is organic and has a smooth, mild taste.
+        </p>
+    </div>
+</section>
+
+<section id="sugar">
+    <h2>🍯 Sugar & Sweetness</h2>
+    <div class="card">
+        <p>
+            Sugar plays a key role in Nepali beverages. Many people enjoy tea with a strong sweet taste.
+            Alternatives like honey and jaggery are also popular.
+        </p>
+    </div>
+</section>
+
+<section id="contact">
+    <h2>Contact</h2>
+    <div class="card">
+        <p>Email: info@nepalitea.com</p>
+        <p>Phone: +977-XXXXXXXXXX</p>
+    </div>
+</section>
+
+<footer>
+    <p>© 2026 Nepali Tea & Coffee Culture</p>
+</footer>
+
+</body>
+</html>
